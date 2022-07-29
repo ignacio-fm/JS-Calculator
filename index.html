@@ -1,55 +1,73 @@
 <main>
   <div class="container">
     <h1>JS Calculator</h1>
-    <div class="headings">
-      <h2>Calculate two numerical values</h2>
-      <h3>Calculator with 3 operators for natural and decimal values.</h3>
-    </div>
-    <hr />
-  </div>
-  <div class="container">
-    <form id="formAddNum">
-      <div>
-        <label>
-          First number
-          <input required id="firstNum" type="number" name="title" />
-        </label>
-        <label>
-          Second number
-          <input required id="secondNum" type="number" name="description" />
-        </label>
+    <article>
+      <div class="headings">
+        <h2>Calculate two numerical values</h2>
+        <h3>Calculator with 3 operators for natural and decimal values.</h3>
       </div>
-      <fieldset>
-        <label for="add">
-          <input
-            required
-            type="radio"
-            id="add"
-            name="operator"
-            value="+"
-            checked
-          />
-          Add
-        </label>
-        <label for="substract">
-          <input
-            required
-            type="radio"
-            id="substract"
-            name="operator"
-            value="-"
-          />
-          Substract
-        </label>
-        <label for="divide">
-          <input required type="radio" id="divide" name="operator" value="/" />
-          Divide
-        </label>
-      </fieldset>
-      <div>
-        <button type="submit">Calculate!</button>
-      </div>
-      <p>Result: <output id="resultAdd" for="primerNum segundoNum"></output></p>
-    </form>
+      <hr />
+      <form id="formAddNum">
+        <div>
+          <label>
+            First number
+            <input required id="firstNum" type="number" name="title" />
+          </label>
+          <label>
+            Second number
+            <input required id="secondNum" type="number" name="description" />
+          </label>
+        </div>
+        <fieldset>
+          <label for="add">
+            <input
+              required
+              type="radio"
+              id="add"
+              name="operator"
+              value="+"
+              checked
+            />
+            Add
+          </label>
+          <label for="substract">
+            <input
+              required
+              type="radio"
+              id="substract"
+              name="operator"
+              value="-"
+            />
+            Substract
+          </label>
+          <label for="divide">
+            <input
+              required
+              type="radio"
+              id="divide"
+              name="operator"
+              value="/"
+            />
+            Divide
+          </label>
+        </fieldset>
+        <div>
+          <button type="submit">Calculate!</button>
+        </div>
+        <div class="result">
+          <p>
+            Result: <output id="resultAdd" for="primerNum segundoNum"></output>
+          </p>
+        </div>
+      </form>
+    </article>
   </div>
 </main>
+<footer class="container">
+  <hr />
+  <small
+    >Developed by <a href="https://github.com/ignacio-fm">@ignacio-fm</a>. View
+    in <a href="https://github.com/ignacio-fm/JS-Calculator">GitHub</a></small
+  >.<br />
+  <small>✨ Stylized with <a href="https://picocss.com/">Pico.css</a></small>
+</footer>

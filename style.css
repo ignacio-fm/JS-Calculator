@@ -1,1 +1,16 @@
 @import '@picocss/pico';
+
+article,
+#formAddNum {
+  margin-bottom: 0;
+}
+
+.result {
+  border: solid 1px #a2afb9;
+  border-radius: 5px;
+  padding: 15px 15px;
+}
+.result > p {
+  margin-bottom: 0;
+  font-weight: 600;
+}
