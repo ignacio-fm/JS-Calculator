@@ -1,0 +1,8 @@
+{
+  "name": "js",
+  "version": "0.0.0",
+  "private": true,
+  "dependencies": {
+    "@picocss/pico": "^1.5.3"
+  }
+}
